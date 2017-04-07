@@ -4,7 +4,7 @@ process.title = 'gatsby-utils';
 
 const resolve = require('resolve');
 
-resolve('ember-cli', {
+resolve('gatsby-utils', {
   basedir: process.cwd()
 }, function(err, projectLocalCli) {
   let cli;
