@@ -1,6 +1,6 @@
 {
   "name": "gatsby-utils",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "description": "cli utilities for gatsby.js",
   "main": "index.js",
   "scripts": {
