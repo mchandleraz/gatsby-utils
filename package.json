@@ -1,6 +1,6 @@
 {
   "name": "gatsby-utils",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "cli utilities for gatsby.js",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "mcaz",
   "license": "ISC",
   "bin": {
-    "gatsby-utils": "./bin/cli",
-    "💸": "./bin/cli"
+    "gatsby-utils": "./bin/cli.js",
+    "💸": "./bin/cli.js"
   },
   "dependencies": {
     "moment": "^2.18.1",
