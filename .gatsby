@@ -1,0 +1,6 @@
+module.exports = {
+  /* relative to working directory.
+   * must be at least a slash for now
+   */
+  "path": "/test/"
+}

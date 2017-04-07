@@ -10,7 +10,6 @@ resolve('gatsby-utils', {
   let cli;
 
   if (err) {
-    console.error(err)
     // If there is an error, resolve could not find the ember-cli
     // library from a package.json. Instead, include it from a relative
     // path to this script file (which is likely a globally installed
@@ -22,6 +21,8 @@ resolve('gatsby-utils', {
     cli = require(projectLocalCli);
   }
 
-  // cli(process.argv.slice(2));
+  const args = process.argv.slice(2);
+  
+  cli.call(null)[args.shift()].call(null, Array.from(args));
 });
 0
