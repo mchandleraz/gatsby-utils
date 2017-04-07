@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-utils",
+  "version": "1.0.0",
+  "description": "cli utilities for gatsby.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "mcaz",
+  "license": "ISC",
+  "bin": {
+    "GatsbyUtils": "./src/index.js"
+  },
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
